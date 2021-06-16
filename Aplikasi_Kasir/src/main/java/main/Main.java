@@ -12,8 +12,21 @@ package main;
 public class Main {
 
     public DaftarMenu daftarMenu;
+    //Tambahkan
+    public static double PAJAK_PPN = 0.10;
+    public static double BIAYA_SERVICE = 0.05;
+    //End of tambahkan
+ 
 
-    public static void main(string[] args) { }
+    public static void main(string[] args) {
+        //init
+        Scanner input = new Scanner(System.in);
+        //Tambahkan
+        String no_transaksi, nama_pemesan, tanggal, no_meja = "";
+        String transaksi_lagi = " ", pesan_lagi = " ",  keterangan = " ", makan_ditempat;
+        int jumlah_pesanan, no_menu;
+        //End of Tambahkan
+     }
 
     public void generateDaftarMenu() {
         daftarMenu = new DaftarMenu();
