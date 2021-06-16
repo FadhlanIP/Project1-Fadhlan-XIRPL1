@@ -21,11 +21,12 @@ public class Main {
     public static void main(string[] args) {
         //init
         Scanner input = new Scanner(System.in);
-        //Tambahkan
+
         String no_transaksi, nama_pemesan, tanggal, no_meja = "";
         String transaksi_lagi = " ", pesan_lagi = " ",  keterangan = " ", makan_ditempat;
         int jumlah_pesanan, no_menu;
-        //End of Tambahkan
+
+        app.generateDaftarMenu();
 
     //mulai transaksi
     System.out.println("======== TRANSAKSI ========");
@@ -43,7 +44,7 @@ public class Main {
     if (makan_ditempat,equalsIgnoreCase("Y")) {
         System.out.print("Nomor meja : ");
         no_meja = input.next();
-        
+
     }
     
 
