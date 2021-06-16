@@ -26,6 +26,6 @@ public class Transaksi {
     public void tambahPesanan(Pesanan pesanan) { }
 
     public Pesanan getPesanan() { return null; }
-    
+
     
 }
