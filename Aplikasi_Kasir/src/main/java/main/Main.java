@@ -30,6 +30,12 @@ public class Main {
 
     //mulai transaksi
     System.out.println("======== TRANSAKSI ========");
+    do {
+        System.out.println("Lakukan Transaksi Lagi? [Y/N]")
+        transaksi_lagi = input.next();
+    } while (transaksi_lagi.equalsIgnoreCase("Y"));
+
+        System.out.println("======== TERIMA KASIH ========");
 
     //ambil data transaksi
     System.out.print("No transaksi : ");
